@@ -9,6 +9,7 @@
   
    <link rel = "stylesheet" type = "text/css" href = "main.css">
    <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--This works-->
    
    <title>Healthy Foodie</title>
    </head>
@@ -26,13 +27,14 @@
 
 
                 <label class = "brand">Healthy Foodie</label>
-                <ul>
+                <ul class="menus">
                     <li><a href = # class="active">Home</a></li>
                     <li><a href = #  class = "active">Menu</a></li>
                     <li><a href = #  class = "active">Takeaway</a></li>
                     <li><a href = #  class = "active">Contact</a></li>
-                    <li><i href = #  class="fas fa-search"></i></li>
                 </ul>
+                <a class="search"><i class="fas fa-search"></i><a></a><!--Not part of the list-->
+                
         </nav>
         <div class="Main">
             <div class = "sub1">
@@ -58,12 +60,20 @@
         </style>
    </body>
    <footer>
-            <p>
-            <a><i class="fa-brands fa-twitter"></i></a>
-            <a><i class='fa fa-facebook'></i></a>
-            <a><i class="fab fa-instagram"></i></a>
-            </p>
+
+    <div class=footer-content>
+            <h3>Our Socials</h3>
+            <p>Follow us on our socials to keep updated with our latest proucts.</p>
+            <ul class="socials">
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class='fa fa-facebook'></i></a></li>
+            <li><a href ="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright &copy; 2022 anonymous.| Coded by: Nicole Satiembre</p>
+    </div>
    </footer>
 
 </html>
